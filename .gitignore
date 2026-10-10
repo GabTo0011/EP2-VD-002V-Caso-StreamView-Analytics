@@ -54,6 +54,27 @@ System Volume Information/
 *.iml
 *.ipr
 
+# --- Xcode (Apple) ---
+# Archivos específicos de usuario (posiciones de ventanas, pestañas abiertas)
+xcuserdata/
+*.xcuserdata
+
+# Datos de construcción y logs de Xcode
+DerivedData/
+.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+.xcodeproj/project.xcworkspace/
+!.xcodeproj/project.pbxproj
+!.xcodeproj/xcshareddata/
+
+# Archivos del sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
 # ==========================================
 # ARCHIVOS TEMPORALES Y LOGS GENERALES
 # ==========================================
@@ -63,3 +84,41 @@ System Volume Information/
 *.sublime-workspace
 .env
 .env.local
+.env.*.local
+
+# Env virtuales
+.venv/
+venv/
+env/
+ENV/
+pyenv/
+
+# Archivos de caché y optimización de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribución y empaquetamiento
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook (Archivos temporales)
+.ipynb_checkpoints
+
+
