@@ -122,3 +122,15 @@ MANIFEST
 .ipynb_checkpoints
 
 
+
+# Datos locales
+data/*.csv
+data/**/*.csv
+
+# Entorno y archivos temporales
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.ipynb_checkpoints/
