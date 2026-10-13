@@ -132,11 +132,8 @@ data/**/*.csv
 !data/processed/peliculas_procesadas.csv
 !data/processed/series_procesadas.csv
 !data/processed/kpis_catalogo.csv
+!data/processed/*.csv
 
 # Entorno y archivos temporales
-.venv/
-venv/
-__pycache__/
 *.py[cod]
-.env
 .ipynb_checkpoints/
