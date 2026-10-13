@@ -122,3 +122,21 @@ MANIFEST
 .ipynb_checkpoints
 
 
+
+# Datos locales
+data/*.csv
+# Ignorar los CSV de datos por defecto
+data/**/*.csv
+
+# Permitir los datos procesados necesarios para Power BI
+!data/processed/peliculas_procesadas.csv
+!data/processed/series_procesadas.csv
+!data/processed/kpis_catalogo.csv
+
+# Entorno y archivos temporales
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.ipynb_checkpoints/
